@@ -1,0 +1,62 @@
+/* Social Media Button styling in navBar */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+/* Hover Effect for Social Media Buttons */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Social Media button colors */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f2f3f4;
+}
+
+.col-xs-3 {
+    background-color: lightgray;
+    margin-left: 25px;
+    margin-right: 25px;  
+}
+
+.col-xs-9 {
+    background-color: white;
+}
+
+.page-header {
+    background-color: #595c69 ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+
+
+
+/* Footer */
+.footer {
+  position: fixed;
+  padding: 0.8rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
