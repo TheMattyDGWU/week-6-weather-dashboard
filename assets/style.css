@@ -40,14 +40,14 @@ body {
     margin-right: 25px;  
 }
 
-.form-control input[type=text] {
-  border-bottom: 1px solid #4dd0e1;
-  box-shadow: 0 1px 0 0 #4dd0e1;
+.search-header {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.col-xs-9 {
-    background-color: white;
-}
+
+
+
 
 
 
