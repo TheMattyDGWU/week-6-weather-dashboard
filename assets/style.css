@@ -23,7 +23,7 @@
 
 body {
      font-family: Arial, Helvetica, sans-serif;
-     background-color: #f2f3f4;
+     background-color: #388de2;
 }
 
 .page-header {
@@ -31,28 +31,13 @@ body {
     color: white;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 0px;
-}
-
-.col-xs-3 {
-    background-color: lightgray;
-    margin-left: 25px;
-    margin-right: 25px;  
+    padding-bottom: 10px;
 }
 
 .search-header {
     font-size: 24px;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 .footer {

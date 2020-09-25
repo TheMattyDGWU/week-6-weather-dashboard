@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -17,8 +18,10 @@
     <link rel="stylesheet" href="assets/style.css" />
     <title>Weather Dashboard</title>
 </head>
+</head>
 
 <body>
+
     <!-- _____________________________ NAVBAR __________________________ -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
@@ -42,9 +45,8 @@
         </div>
     </div>
 
-
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container mx-auto my-4">
+        <div class="row px-2">
             <div class="col-4 bg-light">
                 <p class="search-header my-1">Search for a city</p>
                 <div class="input-group mb-3">
@@ -56,30 +58,74 @@
                         </button>
                     </div>
                 </div>
-                <button class="btn btn-primary mb-3" type="button" id="clear-history">Clear history</button>
+                <button class="btn btn-danger mb-3" type="button" id="clear-history">Clear history</button>
                 <form id="history"></form>
             </div>
-
-
-
-
-            <!-- ______________________________ SCRIPTS _________________________ -->
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-            <script src="assets/script.js"></script>
-
-            <!-- ______________________________ FOOTER _________________________ -->
-            <footer class="footer">
-                <div class="container" style="text-align: center">
-                    Copyright &copy;
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script>
-                    | Rancho Relaxo Productions |
-                    <a href="https://mattyd.info" target="_blank">mattyd.info</a>
+            <div class="col-8 bg-light">
+                <div class="row mr-1">
+                    <div class="col-12 border border-dark m-3 rounded">
+                        <div class="row">
+                            <div class="col-12">
+                                <span id="city-name" class="city-name align-middle"></span>
+                                <img id="current-pic" src="placeholder" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="temperature"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="humidity"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="wind-speed"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex">
+                                <p id="UV-index"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </footer>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>5-Day Forecast</h3>
+                    </div>
+                </div>
+                <div class="row mr-1">
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ______________________________ SCRIPTS _________________________ -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/script.js"></script>
+
+    <!-- ______________________________ FOOTER _________________________ -->
+    <footer class="footer">
+        <div class="container" style="text-align: center">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            | Rancho Relaxo Productions |
+            <a href="https://mattyd.info" target="_blank">mattyd.info</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
