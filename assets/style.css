@@ -1,33 +1,41 @@
 /* Social Media Button styling in navBar */
+
 .fa {
-  padding: 10px;
-  font-size: 20px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 40%;
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
 }
+
+
 /* Hover Effect for Social Media Buttons */
+
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
+
+
 /* Social Media button colors */
+
 .fa-facebook {
-  background: #3b5998;
-  color: white;
+    background: #3b5998;
+    color: white;
 }
+
 .fa-linkedin-in {
-  background: #007bb5;
-  color: white;
+    background: #007bb5;
+    color: white;
 }
 
 body {
-     font-family: Arial, Helvetica, sans-serif;
-     background-color: #388de2;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4e89ae;
 }
 
 .page-header {
-    background-color: #595c69 ;
+    background-color: #595c69;
     color: white;
     text-align: center;
     padding-top: 10px;
@@ -35,22 +43,22 @@ body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .heading {
-  background-color: #3c3c3c;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
 
 input {
-  width: 75%;
+    width: 75%;
 }
 
 #city-list {
-  width: 22rem;
+    width: 22rem;
 }
 
 #city-date-icon,
@@ -62,36 +70,37 @@ input {
 }
 
 h6 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 h4 {
-  background-color: white;
-  margin-top: 10px;
+    background-color: white;
+    margin-top: 10px;
 }
 
 #forecast-cards {
-  background-color: white;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center/space-between;
 }
 
 .forecast {
-  background-color: white;
+    background-color: white;
     margin: 10px;
 }
 
-/* Footer */
-.footer {
-  position: fixed;
-  padding: 0.8rem;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #343a40;
-  color: white;
-  text-align: center;
-  z-index: 1;
-}
 
+/* Footer */
+
+.footer {
+    position: fixed;
+    padding: 0.8rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
