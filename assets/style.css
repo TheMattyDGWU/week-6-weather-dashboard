@@ -10,9 +10,6 @@
     margin: 5px 2px;
 }
 
-
-/* Hover Effect for Social Media Buttons */
-
 .fa:hover {
     opacity: 0.7;
 }
@@ -28,12 +25,19 @@
     color: white;
 }
 
+
+/* Default Body Styling */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #4e89ae;
 }
 
-.page-header {
+
+/* Page Header Styling */
+
+
+/* .page-header {
     background-color: #595c69;
     color: white;
     text-align: center;
@@ -46,11 +50,12 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 10px;
-}
+} */
 
-input {
+
+/* input {
     width: 75%;
-}
+} */
 
 #city-list {
     width: 22rem;
