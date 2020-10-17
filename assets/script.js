@@ -90,7 +90,6 @@ $(document).ready(function() {
                     '</span>'
                 );
 
-                // DRY this out...
                 if (uvi < 3) {
                     $('#uvi-badge').css('background-color', 'green');
                 } else if (uvi < 6) {
@@ -155,7 +154,7 @@ $(document).ready(function() {
             });
         });
     }
-
+    // <!-- Current Weather Button and functionality CREDIT: Justin Le / GitHub-twopcz -->
     function getCurrentLocation() {
         function success(position) {
             const currentLat = position.coords.latitude;
