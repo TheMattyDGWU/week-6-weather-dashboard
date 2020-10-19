@@ -10,7 +10,7 @@ var searchHistoryArr = [];
 
 $(document).ready(function() {
     init();
-
+    // Function initialization 
     function init() {
         search();
         $('#current-forecast').hide();
@@ -40,7 +40,7 @@ $(document).ready(function() {
 
     function getWeather(search) {
         var queryURL = weatherAPI + 'q=' + search + units + APIkey;
-
+        // show/hide divs based upon error or success
         $.ajax({
             url: queryURL,
             method: 'GET',
@@ -130,7 +130,7 @@ $(document).ready(function() {
                     forecastObj['list']['temp'] = forecastTemp;
                     forecastObj['list']['humidity'] = forecastHumidity;
                     forecastObj['list']['icon'] = forecastIcon;
-
+                    // update the cards with returned data
                     forecastArr.push(forecastObj);
                 }
 
