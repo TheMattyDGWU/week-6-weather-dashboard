@@ -45,6 +45,9 @@ body {
     justify-content: center/space-around/space-between;
 }
 
+
+/* Section Header Styling/Font */
+
 h6 {
     font-weight: bold;
 }
@@ -67,7 +70,7 @@ h4 {
 }
 
 
-/* Footer */
+/* Sticky Footer */
 
 .footer {
     position: fixed;
