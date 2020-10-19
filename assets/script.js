@@ -89,7 +89,7 @@ $(document).ready(function() {
                     uvi +
                     '</span>'
                 );
-
+                // Change the badge color depending upon UVI intensity
                 if (uvi < 3) {
                     $('#uvi-badge').css('background-color', 'green');
                 } else if (uvi < 6) {
@@ -214,7 +214,7 @@ $(document).ready(function() {
             getCurrentLocation();
         });
     }
-
+    // Search History
     function storeHistory(citySearchName) {
         var searchHistoryObj = {};
 
@@ -251,7 +251,7 @@ $(document).ready(function() {
         $('#search-history').empty();
         displayHistory();
     }
-
+    // Search History
     function displayHistory() {
         var getLocalSearchHistory = localStorage.getItem('searchHistory');
         var localSearchHistory = JSON.parse(getLocalSearchHistory);
