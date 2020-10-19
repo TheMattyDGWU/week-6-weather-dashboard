@@ -14,7 +14,8 @@
 ## Tests:
 >Here's a screenShot of the Weather Dashboard in action:
 
->![Screen Shot 2020-10-17 at 1 47 47 PM](https://user-images.githubusercontent.com/66084799/96349714-610c0200-107f-11eb-8bfb-365f48121239.png)
+>![Screen Shot 2020-10-19 at 3 23 24 PM](https://user-images.githubusercontent.com/66084799/96501914-0f01e280-121f-11eb-8a9e-4a2cb7fa97ab.png)
+
 
 ## Questions
 >Please direct all questions to:
