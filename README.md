@@ -1,8 +1,10 @@
 # Weather Dashboard
 
 ## Description
+This is a simple weather dashboard utilizing html, css, javascript and API get requess to OpenWeather api to produce current weather condidtions and a 5-day forecast based upon a user-input city.
 
 ## Usage
+The webpage can be found here: https://theycallmemattyd.github.io/week-6-weather-dashboard/index.html
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) - This application is covered under the [MIT License](https://opensource.org/licenses/MIT)
