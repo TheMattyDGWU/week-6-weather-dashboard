@@ -1,5 +1,9 @@
 # Weather Dashboard
 
+[![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/week-6-weather-dashboard?style=for-the-badge)](https://github.com/TheyCallMeMattyD/rweek-6-weather-dashboard/issues) &nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/week-6-weather-dashboard?style=for-the-badge)](https://github.com/TheyCallMeMattyD/week-6-weather-dashboard/stargazers) &nbsp;
+![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/week-6-weather-dashboard?style=for-the-badge)  
+
 ## Description
 >This is a simple weather dashboard utilizing html, css, javascript and API 'get' requests to OpenWeatherApi to produce current weather condidtions and a 5-day forecast based upon a user-input city.
 
